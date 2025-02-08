@@ -1,12 +1,14 @@
 [tool.poetry]
-name = "llm-experiments"
-version = "0.1.0"
-description = ""
-authors = ["Blackkadder <robinnep@gmail.com>"]
-readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.12,<3.13"
+numpy = "^2.2.2"
+pytest = "^8.3.4"
+haystack-ai = "^2.9.0"
+python-dotenv = "^1.0.0"
+trafilatura = "^2.0.0"
+
 
 
 [build-system]
